@@ -247,3 +247,4 @@ INSERT INTO `airline_flight_analytics` (`Flight_ID`, `Flight_Date`, `Airline`, `
 -- Verify imported data
 SELECT COUNT(*) AS total_records FROM `airline_flight_analytics`;
 SELECT * FROM airline_flight_analytics;
+
